@@ -1,9 +1,7 @@
-const { faker } = require('@faker-js/faker');
-
 const generateOneBook = () => ({
-  _id: faker.string.uuid(),
-  name: faker.commerce.productName(),
-  price: faker.commerce.price(),
+  _id: 'test',
+  name: 'book test',
+  price: 1,
 });
 
 const generateManyBooks = (size = 10) => {
