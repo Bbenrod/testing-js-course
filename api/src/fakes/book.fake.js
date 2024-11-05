@@ -1,5 +1,4 @@
 const generateOneBook = () => ({
-  _id: 'test',
   name: 'book test',
   price: 1,
 });
